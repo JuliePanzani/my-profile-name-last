@@ -1,0 +1,94 @@
+/*colors and fonts*/
+body {
+	background: rgb(253,210,205).
+	color: rgb(50,50,50);
+}
+
+h1{
+	color : #2E294E ;
+	font-family: 'Lobster', cursive;
+}
+
+p {color: #B4ADA3;}
+
+h2 {
+  color: #89023E;
+	font-size: 20px;
+	font-family: 'Dancing Script', cursive
+}
+
+/*Spans*/
+span { 
+	color : red; 
+}
+
+/*Hidden bullet points*/
+ul {
+	list-style-type: none;
+	color: #B4ADA3;
+}
+
+ol {list-style-type: none;
+	color: #B4ADA3;
+}
+
+/*Links*/
+a {
+  color: #EDB230;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #EDB230;
+  text-decoration: none;
+  font-family: 'Lexend Peta';
+  font-size: 10px;
+}
+
+img {
+	border-radius: 30%;
+	box-shadow : 5px 5px 10px rgba(0,0,0,0.4);
+	border-radius: 50px;
+}
+
+/*Divs*/
+.container {
+	text-align: center;
+	background : white;
+}
+
+.presentation {   
+border-top: 1px solid rgba(0, 0, 0, 0.1);                                                                        
+border : 1px grey;
+margin-right: 100px;
+margin-left: 100px;
+padding: 10px;
+}
+
+.pm {
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+margin-right: 100px;
+margin-left: 100px;
+padding: 10px;
+}
+
+.digitaltools { 
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+margin-right: 100px;
+margin-left: 100px;
+padding: 10px;
+ }
+
+ .contact {
+ 	box-shadow: 0 10px 30px rgba(0.1,0.1,0.1,.1);
+ 	margin-right: 300px;
+ 	margin-left: 300px;
+	padding: 10px;
+ }
+
+ @media (max-width: 800px) {
+  .container {
+    width: 400px;
+  }
+}
